@@ -1,0 +1,17 @@
+button {
+    background-color: $fourth-color;
+    border: 3px solid $fifth-color;
+    border-radius: 50px;
+    margin-right: 3em;
+    margin-left: 2em;
+    margin-bottom: 1em;
+    cursor: pointer;
+    width: 10em;
+    height: 4em;
+}
+
+button:hover{
+    transform: scale(1.2);
+    background-color: $fifth-color;
+}
+

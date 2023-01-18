@@ -1,0 +1,119 @@
+html,
+body {
+  margin: 0;
+  height: 100%;
+  background-color: #e9c46a;
+}
+
+.container .row .col {
+  background-color: #2a9d8f;
+  border: 1em solid #264653;
+  border-radius: 3em;
+}
+.container .row .col h1 {
+  margin-left: 2em;
+  color: #e9c46a;
+  border: 1px solid;
+  width: 9em;
+  background-color: #e76f51;
+  border-radius: 5px;
+}
+.container .row .col ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.container .row .col ul li {
+  background-color: #e76f51;
+  border: 1.5px solid #e76f51;
+  border-radius: 10px;
+  width: 8em;
+  height: 1.5em;
+  list-style: none;
+  margin-right: 1.5em;
+}
+.container .row .col ul li a {
+  color: #264653;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+}
+
+.container-1 .col {
+  background-color: #2a9d8f;
+  border: 1em solid #264653;
+  border-radius: 3em;
+  width: 98%;
+  height: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.container-1 .col img {
+  width: 340px;
+  height: 300px;
+  border: 0.5px solid;
+  border-radius: 30px;
+  cursor: pointer;
+  display: flex;
+  margin-right: 2em;
+}
+.container-1 .col p {
+  color: #e76f51;
+  font-size: 1.5em;
+  font-color: #f4a261;
+}
+.container-1 .col h1 {
+  color: #e76f51;
+  cursor: pointer;
+  text-align: center;
+}
+
+footer {
+  background-color: #264653;
+  border: 1em solid #264653;
+  border-radius: 3em;
+  width: 98%;
+  height: 200px;
+  justify-content: space-around;
+}
+footer h4 a {
+  text-decoration: none;
+  color: #FFFFFF;
+  display: flex;
+  justify-content: center;
+}
+footer .icone {
+  display: flex;
+  justify-content: space-evenly;
+  color: #FFFFFF;
+}
+
+h1:hover {
+  transform: scale(1.5);
+}
+
+button {
+  background-color: #f4a261;
+  border: 3px solid #e76f51;
+  border-radius: 50px;
+  margin-right: 3em;
+  margin-left: 2em;
+  margin-bottom: 1em;
+  cursor: pointer;
+  width: 10em;
+  height: 4em;
+}
+
+button:hover {
+  transform: scale(1.2);
+  background-color: #e76f51;
+}
+
+h4 a:hover {
+  transform: scale(1.5);
+}
+
+footer .icone i:hover {
+  transform: scale(1.5);
+}/*# sourceMappingURL=style.css.map */
