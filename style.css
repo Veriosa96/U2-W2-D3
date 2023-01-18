@@ -1,3 +1,32 @@
+button {
+  background-color: #f4a261;
+  border: 3px solid #e76f51;
+  border-radius: 50px;
+  margin-right: 3em;
+  margin-left: 2em;
+  margin-bottom: 1em;
+  cursor: pointer;
+  width: 10em;
+  height: 4em;
+}
+
+button:hover {
+  transform: scale(1.2);
+  background-color: #e76f51;
+}
+
+h4 a:hover {
+  transform: scale(1.5);
+}
+
+footer .icone i:hover {
+  transform: scale(1.5);
+}
+
+h1:hover {
+  transform: scale(1.5);
+}
+
 html,
 body {
   margin: 0;
@@ -59,9 +88,8 @@ body {
   margin-right: 2em;
 }
 .container-1 .col p {
-  color: #e76f51;
+  color: #f4a261;
   font-size: 1.5em;
-  font-color: #f4a261;
 }
 .container-1 .col h1 {
   color: #e76f51;
@@ -87,33 +115,4 @@ footer .icone {
   display: flex;
   justify-content: space-evenly;
   color: #FFFFFF;
-}
-
-h1:hover {
-  transform: scale(1.5);
-}
-
-button {
-  background-color: #f4a261;
-  border: 3px solid #e76f51;
-  border-radius: 50px;
-  margin-right: 3em;
-  margin-left: 2em;
-  margin-bottom: 1em;
-  cursor: pointer;
-  width: 10em;
-  height: 4em;
-}
-
-button:hover {
-  transform: scale(1.2);
-  background-color: #e76f51;
-}
-
-h4 a:hover {
-  transform: scale(1.5);
-}
-
-footer .icone i:hover {
-  transform: scale(1.5);
 }/*# sourceMappingURL=style.css.map */
